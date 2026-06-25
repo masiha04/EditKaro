@@ -82,3 +82,8 @@ lightbox.addEventListener('click', (e) => {
     }
 
 });
+document.getElementById("subscribeForm")
+.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    alert("Thank you for subscribing!");
+});

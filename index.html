@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Editkaro.in Portfolio</title>
+<meta name="description"
+content="Editkaro.in - Social Media Marketing and Video Editing Agency">
+
+<meta name="keywords"
+content="Video Editing, Reels Editing, Social Media Marketing">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,52 +45,105 @@
     <button data-filter="anime">Anime</button>
   </div>
 
-  <div class="gallery">
-    <div class="card" data-category="short">
-  <video muted loop playsinline controls preload="metadata">
-  <source src="assets/videos/short.mp4" type="video/mp4">
-</video>
-  <h3>Short Form Reel</h3>
-</div>
+ <div class="gallery">
 
-<div class="card" data-category="long">
-  <video muted loop playsinline>
-    <source src="assets/videos/long.mp4" type="video/mp4">
-  </video>
-  <h3>Long Form Edit</h3>
-</div>
+  <div class="card" data-category="short">
+    <video muted loop playsinline controls>
+      <source src="assets/videos/short.mp4" type="video/mp4">
+    </video>
+    <h3>Short Form Reel</h3>
+  </div>
 
-<div class="card" data-category="gaming">
-  <video muted loop playsinline>
-    <source src="assets/videos/videogame.mp4" type="video/mp4">
-  </video>
-  <h3>FootBall</h3>
+  <div class="card" data-category="long">
+    <video muted loop playsinline controls>
+      <source src="assets/videos/long.mp4" type="video/mp4">
+    </video>
+    <h3>Long Form Edit</h3>
+  </div>
+
+  <div class="card" data-category="gaming">
+    <video muted loop playsinline controls>
+      <source src="assets/videos/videogame.mp4" type="video/mp4">
+    </video>
+    <h3>Gaming Montage</h3>
+  </div>
+
+  <div class="card" data-category="football">
+    <video muted loop playsinline controls>
+      <source src="assets/videos/football.mp4" type="video/mp4">
+    </video>
+    <h3>Football Edit</h3>
+  </div>
+
+  <div class="card" data-category="ads">
+    <video muted loop playsinline controls>
+      <source src="assets/videos/ads.mp4" type="video/mp4">
+    </video>
+    <h3>eCommerce Ad</h3>
+  </div>
+
+  <div class="card" data-category="anime">
+    <video muted loop playsinline controls>
+      <source src="assets/videos/anime.mp4" type="video/mp4">
+    </video>
+    <h3>Anime AMV</h3>
+  </div>
+
 </div>
-<div class="card" data-category="football">
-  <video muted loop playsinline>
-    <source src="assets/videos/football.mp4" type="video/mp4">
-  </video>
-  <h3>anime</h3>
-</div>
-<div class="card" data-category="anime">
-  <video muted loop playsinline>
-    <source src="assets/videos/anime.mp4" type="video/mp4">
-  </video>
-  <h3>Ads</h3>
-</div>
-<div class="card" data-category="ads">
-  <video muted loop playsinline>
-    <source src="assets/videos/ads.mp4" type="video/mp4">
-  </video>
-  <h3>Gaming Montage</h3>
-</div>
-</section>
 
 
 <div id="lightbox" class="lightbox">
   <span id="close">&times;</span>
   <video controls id="lightboxVideo"></video>
 </div>
+<section class="newsletter">
+  <h2>Stay Updated</h2>
+
+  <form id="subscribeForm">
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+<section id="about">
+<h2 class="section-title">About Us</h2>
+
+<p>
+Editkaro.in is a creative agency specializing in video editing,
+social media growth and digital storytelling.
+</p>
+
+<div class="stats">
+<div>
+<h3>Mission</h3>
+<p>Help brands grow through engaging content.</p>
+</div>
+
+<div>
+<h3>Vision</h3>
+<p>Become a leading creative agency.</p>
+</div>
+</div>
+
+</section>
+<section id="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="tel" placeholder="Phone Number">
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+</section>
 
 <footer id="contact">
   <h3>Editkaro.in</h3>
